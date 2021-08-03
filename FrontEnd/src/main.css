@@ -30,7 +30,7 @@ body {
 .container,
 .form__input,
 .form__button {
-    font: 500 1rem 'Quicksand', sans-serif;
+    font: 500 1rem 'Quicksand', arial;
 }
 
 .form > *:first-child {
@@ -78,4 +78,9 @@ body {
 .form__input:form {
     border-color: var(--color-primary);
     background: #ffffff;
+}
+
+.form__input--error {
+    color: var(--color-error);
+    border-color: var(--color-error);
 }
